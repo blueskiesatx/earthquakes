@@ -2,31 +2,55 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Tectonic Drift</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Earthquakes</title>
 
-    <!-- Leaflet JS & CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
+   <!-- Latest compiled and minified CSS & JS   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.2/dist/leaflet.js"></script>
 
     <!-- d3 JS -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+ <!---->
+    <!-- Leaflet Timeline CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+    <!--D3 CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+<!---->>
 
     <!-- Marker Cluster JS & CSS -->
     <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
 
-    <!-- Our CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
   </head> 
   <body>
+
+  <!--some descriptive text in header blerb-->
+   <div class="container-fluid">
+      <div class="jumbotron text-center">
+        <h1>Earthquake Data Dashboard</h1>
+        <p>The visualization below shows earthquake events for today, updated daily by the
+          <a href="https://earthquake.usgs.gov/" target="_blank">United States Geological Survey (USGS)</a><br>
+          Leaflet.js is used to plot the data.<br>
+        </p>
+      </div>
+    </div>
+     <!-- Div for Map -->
     <div id="map"></div>
 
     <script type="text/javascript" src="static/js/config.js"></script>
+
     <!-- JS  -->
    <script type="text/javascript" src="static/js/logic.js"></script>
   </body>

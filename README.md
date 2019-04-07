@@ -6,4 +6,4 @@ The USGS is interested in building a new set of tools that will allow them visua
 Basic Visualization
 Visualized an earthquake data set. Can choose different data from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
-Plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
+To plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.

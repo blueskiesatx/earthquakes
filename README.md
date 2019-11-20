@@ -9,3 +9,7 @@ Visualized an earthquake data set. Can choose different data from https://earthq
 To plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
 
 ![earthquakes](img/seismic.png)
+
+Tools used:
+Leaflet, CSS, geojson data
+Leaflet is a beautiful, evolving Javascript library for visualizing interactive maps. https://leafletjs.com/

@@ -11,6 +11,8 @@ To plot a second data set on your map to illustrate the relationship between tec
 ![earthquakes](img/seismic.png)
 
 Tools used:
-Leaflet, CSS, geojson data.
+Leaflet, CSS, geojson data, mapbox
 
 Leaflet is a beautiful, evolving Javascript library for visualizing interactive maps. https://leafletjs.com/
+
+
